@@ -1,0 +1,23 @@
+{
+  "name": "ncc-janken",
+  "version": "1.0.0",
+  "description": "ins 2019/12/04 # ncc-janken Node.jsの ライブラリ Express と sockit.io を利用した じゃんけんゲーム です",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24zawa/ncc-janken.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/24zawa/ncc-janken/issues"
+  },
+  "homepage": "https://github.com/24zawa/ncc-janken#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
