@@ -10,7 +10,7 @@ app.get('/' , function(req, res){
 
 io.on('connection',function(socket){
 
-    //受け取ったろき
+    //受け取ったとき
     socket.on('message',function(msg){
         console.log('message: ' + msg);
     });
