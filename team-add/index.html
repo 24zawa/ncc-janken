@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>じゃんけんゲーム</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+        <div class="box2">
+                <p>じゃんけんゲーム</p>
+            </div>
+
+            <div class="myhand">自分の手</div>
+            <div class="enemy">相手の手</div>
+
+            <div class="str">あなたの出す手を選んでください</div>
+
+
+            
+    <form>
+      <a href="#" class="button0" value="グー" onclick="reWrite(0)">グー</a>
+
+        <a href="#" class="button1" value="チョキ" onclick="reWrite(1)">チョキ</a>
+        <a href="#" class="button2" value="パー" onclick="reWrite(2)">パー</a>
+       
+    </form>
+    
+    
+    <script>
+
+            function reWrite(num)
+            {
+              if (document.getElementById)
+              {
+                if (num==0)
+                {
+                  document.getElementById("str").innerHTML="<b>グー</b>を選択";
+                }
+                if(num==1)
+                {
+                  document.getElementById("str").innerHTML="<b>チョキ</b>を選択";
+                }  
+                if(num==2)
+                {
+                    document.getElementById("str").innerHTML="<b>パー</b>を選択";
+                }
+              }
+            }
+            
+            </script>
+
+
+            <form action="#" method="POST">
+              <input type="textarea" name="chat" class="abc">
+              <input type="submit" value="送信する"class="abc">
+      
+            </form>
+    </body>
