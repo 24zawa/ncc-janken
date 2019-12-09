@@ -1,0 +1,13 @@
+.message{
+    width: 100%;
+    background-color: blue;
+}
+.janken{
+    width: 100%;
+    background-color: crimson;
+}
+.chat{
+    width: 100%;
+    margin-top: 20px;
+    background-color:#464646;
+}
